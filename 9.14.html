@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<!-- <div id="box" style="width: 200px;height: 200px;background: green;"></div> -->
+<script>
+// function color(){
+// 	let arr=[]
+// 	for(let i=0;i<3;i++){
+//     	arr.push(Math.floor(Math.random()*256))
+//     }
+//     let str=`rgb(${arr.join()})`;
+//     return str;
+
+// }
+// let box=document.getElementById('box')
+
+//    box.onmouseover = function(){
+//    	box.style.background=color()
+//    }
+
+
+// 	function Person(){
+// 	this.name = 'person';
+// 	this.age = 18;
+
+// 	}
+
+
+
+// let arr = [1,2,3,4];
+
+// for(let i=0;i<arr.length;i++){
+// 	console.log(arr[i]);
+// }
+
+// let i=0;
+// while(i<arr.length){
+
+//  console.log(arr[i]);
+//  i++;
+// }
+
+
+
+
+// console.log(result = arr.splice(1,0,'a','b'))
+// console.log(arr)
+// console.log(result = arr.splice(1,2))
+// console.log(arr)
+// console.log(result = arr.splice(1,2,'a','b'))
+// console.log(arr)
+// 数组的属性可以修改，可以设置
+ // eg.       
+ // arr.length=5
+ //           console.log(arr)
+// console.log(arr.push('a','s','d','f','g'));
+//  console.log(arr)
+// console.log(arr.unshift('a','s','d','f','g'));
+//  console.log(arr)
+// console.log(arr.pop());
+//  console.log(arr)
+//  console.log(arr.pop());
+//  console.log(arr)
+//  console.log(arr.shift());
+//  console.log(arr)
+//  console.log(arr.shift());
+//  console.log(arr)
+ // let arr=[1,2,3,4,5,6];
+ // let arr1=['a','b','c','d'];
+ // for(let i=0;i<arr1.length;i++){
+ // 	arr.push(arr1[i]);
+ // }
+ // console.log(arr)
+ // arr.push(...arr1)
+ // console.log(arr)
+ // let arr =[12,8,6,1,30,3,66,102,72]
+//  arr.sort();
+//  arr.sort(function(a,b){
+//  	return a-b<0
+//  })
+//  arr.sort(function(a,b){
+//  	return a-b>0
+//  })
+// console.log(arr)
+// let map = arr.map(function(value,index,obj){
+//      return value*2
+// })
+//  console.log(map)
+ // let map =arr.map(value=>1)
+ //  console.log(map)
+ //   let map =arr.map(value=>1)
+ //  console.log(map)
+ // let fn = (num)=>({name:'zhangsan',age :16})
+ // console.log(fn)
+ //  function aa (){
+ //  	return {name:'zhangsan',age :16}
+ //  }
+ // console.log(aa())
+
+
+
+
+ // let arr =[1,2,3,4,5,6,1,2,3,4];
+
+
+
+
+//  function delRepeat(arr){
+//  //  let newarr =[]
+// for(let i=0;i<arr.length;i++){
+// 	if(!newarr.includes(arr[i])){
+       // newarr[newarr.length]=arr[i]
+//        
+// 	}
+	
+// }
+//    return newarr;  
+// }
+// console.log(delRepeat(arr))
+
+
+
+//  function delRepeat(arr){
+//   let newarr =[]
+//  for(let i=0;i<arr.length;i++){
+// 	if(i==arr.indexOf(arr[i])){
+//       newarr[newarr.length]=arr[i]
+       
+// 	}
+	
+// }
+//    return newarr;  
+// }
+// console.log(delRepeat(arr))
+
+
+
+// function delRepeat(arr){
+// //  let newarr =[]
+// for(let i=0;i<arr.length;i++){
+// 	let flag=1;
+// 	for(let j=i+1;j<arr.length;j++){
+// 		if(arr[i]==arr[j]){
+//          flag=0;
+//           break;
+// 		}
+// 	}
+// if(flag){
+// 	newarr.push(arr[i])
+//   }
+// }
+// return newarr; 
+// }
+// console.log(delRepeat(arr))
+// let arr4 = [1,2,3,4,5,6,7,4,3,2,9]
+// Array.prototype.delRepeat = function(){
+//     let newarr = [];
+//    for(let i=0;i<this.length;i++){
+//       let flag = true;
+//       for(let j=i+1;j<this.length;j++){
+//       	if(this[i]==this[j]){
+//       		flag = false
+//       		break;
+//       	}
+//       }
+//    if(flag){
+//    	newarr.push(this[i])
+//    }
+//    }
+//    return  newarr
+// }
+ // let result = arr4.delRepeat();
+ // console.log(result);
+
+// console.log(Math.abs(10))
+// console.log(Math.abs(-10))
+// console.log(Math.abs(20))//绝对值
+// console.log(Math.max(10,30,44,5,-1,-60))
+// console.log(Math.min(10,30,44,5,-1,-60))
+console.log(Math.round(-10.3))
+// console.log(Math.ceil(5.8))
+// console.log(Math.ceil(5.3))
+// console.log(Math.ceil(-10.7))
+// console.log(Math.floor(10.5))
+// console.log(Math.floor(5.5))
+// console.log(Math.floor(0.3))
+// for(let i =0;i<10;i++){
+// 	console.log(Math.random());
+// }
+// for(let i =0;i<10;i++){
+// 	console.log(Math.random()*10);
+// }
+// -13~20
+	// console.log(Math.random()*33-13);
+
+
+     	
+   
+
+// let rgb=newarr 
+// console.log(Math.pow(2,3));//x的y次幂
+// console.log(Math.sqrt(2))//平方根
+ 
+
+
+
+let arr = ['a','b','c','d','e','f']
+console.log(arr.join())
+// function randomArr(arr,num){
+// 	let newarr=[]
+//     while(newarr.length<num){
+//     	let index = Math.floor(Math.random()*arr.length);
+//     	if(!newarr.includes(arr[index])){
+//     		newarr.push(arr[index])
+//     	}
+//     }
+//     return newarr
+// }
+//     console.log(randomArr(arr,3))
+
+
+// function randomArr(arr,num){
+// 	let newarr=[]
+//     for(let i=0;i<num;i++){
+//     	let index = Math.floor(Math.random()*arr.length);
+//     	if(!newarr.includes(arr[index])){
+//     		newarr.push(arr[index])
+//     	}
+//     	else{
+//     		i--
+//     	}
+//     }
+//     return newarr
+// }
+//     console.log(randomArr(arr,3))
+ 
+	</script>
+</body>
+</html> 
